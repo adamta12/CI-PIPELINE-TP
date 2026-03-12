@@ -19,7 +19,7 @@ def test_remove_user():
     manager = userManager()
     manager.add_user("youssef")
     manager.remove_user("youssef")
-    assert manager.count_users == 0
+    assert manager.count_users() == 0
 
 
 def test_remove_unknown_user():
