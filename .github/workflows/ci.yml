@@ -51,4 +51,4 @@ jobs:
       - name: Generer le package python
         run: python -m build
       - name: Upload le resultat de build
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
