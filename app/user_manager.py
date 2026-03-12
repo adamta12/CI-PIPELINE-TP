@@ -18,6 +18,6 @@ class userManager:
         return len(self.users)
 
 
-#ajout d'un commentaire pour le test du workflow
+# ajout d'un commentaire pour le test du workflow
 def count_total_users(users):
     return len(users)
