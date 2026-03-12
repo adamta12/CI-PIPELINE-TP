@@ -17,6 +17,7 @@ class userManager:
     def count_users(self):
         return len(self.users)
 
+
 #ajout d'un commentaire pour le test du workflow
 def count_total_users(users):
     return len(users)
