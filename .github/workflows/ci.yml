@@ -48,9 +48,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install build          
+      - name: Install build
         run: pip install build
       - name: Generer le package python
         run: python -m build
       - name: Upload le resultat de build
         uses: actions/upload-artifact@v4
+        with:
+          name: python-package
+          path: dist/
